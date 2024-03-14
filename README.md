@@ -25,3 +25,4 @@ This dataset serves as a valuable resource for understanding the factors influen
 - **Research**: Researchers can leverage this dataset to explore the relationship between various psychosocial factors and mask-wearing behavior, contributing to the broader understanding of health behavior during pandemics.
 
 **Data**
+![Covid Data Distribution](https://github.com/Sidhartht1607/Covidmask_wearing_prediction/blob/main/covid.png?raw=true)
