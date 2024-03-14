@@ -28,3 +28,7 @@ This dataset serves as a valuable resource for understanding the factors influen
 
 
 ![Covid Data Distribution](https://github.com/Sidhartht1607/Covidmask_wearing_prediction/blob/main/Untitled.png?raw=true)
+
+
+## Results
+![Results](https://github.com/Sidhartht1607/Covidmask_wearing_prediction/blob/main/covid%20results.PNG?raw=true)
