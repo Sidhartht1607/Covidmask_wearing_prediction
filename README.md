@@ -18,11 +18,6 @@ The Texas A&M Mask-Wearing Attitudes Survey Dataset provides insights into the a
 
 This dataset serves as a valuable resource for understanding the factors influencing mask-wearing behavior among college students, particularly in the context of the COVID-19 pandemic. By analyzing the survey responses and building predictive models, researchers can gain insights into the determinants of mask-wearing frequency and develop strategies to promote and encourage responsible mask-wearing practices among the student population.
 
-## Potential Applications
-
-- **Public Health Interventions**: Insights from this dataset can inform the development of targeted public health campaigns aimed at promoting mask wearing and increasing adherence to recommended guidelines.
-- **Policy Decisions**: Policymakers can use the findings from this dataset to implement evidence-based policies and interventions to improve mask-wearing behavior within the university community.
-- **Research**: Researchers can leverage this dataset to explore the relationship between various psychosocial factors and mask-wearing behavior, contributing to the broader understanding of health behavior during pandemics.
 
 **Data**
 
@@ -43,3 +38,9 @@ Selection, on the other hand, provides an Adj. R2 score. The Heatmap shows the p
 variable (y_test).
 
 However, the Heatmap ranges from 0 to 5, which means that none of the true response values in y_test can be below 1 since y_test ranges from 1 to 5. This constraint does not apply to the regression models, which can predict values ranging from 0 to 5 and can also produce float values. However, this does not apply to LDA, as it only predicts the class.
+
+## Potential Applications
+
+- **Public Health Interventions**: Insights from this dataset can inform the development of targeted public health campaigns aimed at promoting mask wearing and increasing adherence to recommended guidelines.
+- **Policy Decisions**: Policymakers can use the findings from this dataset to implement evidence-based policies and interventions to improve mask-wearing behavior within the university community.
+- **Research**: Researchers can leverage this dataset to explore the relationship between various psychosocial factors and mask-wearing behavior, contributing to the broader understanding of health behavior during pandemics.
