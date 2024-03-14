@@ -31,4 +31,15 @@ This dataset serves as a valuable resource for understanding the factors influen
 
 
 ## Results
+
+
+We have used three models: Forward Selection, Bagging, and LDA. Forward Selection and Bagging are regression models we cannot directly compare to a classification model such as LDA. In Regression models, we mainly use the Test Mean Squared Errors to compare the models between them and for classification we calculate the misclassification rate (We have still provided test MSE for LDA). So, to compare we have used a heatmap to assess the predicted values. 
+
 ![Results](https://github.com/Sidhartht1607/Covidmask_wearing_prediction/blob/main/covid%20results.PNG?raw=true)
+
+When comparing models using Test MSE as a metric, Bagging has the lowest score of 0.588, while LDA and Forward Selection follow closely with Test MSE scores of 0.63 and 0.637 respectively. It's worth noting that LDA is a classification model, so we can measure its performance in terms of misclassification rate, which in this case is 43%. Forward
+
+Selection, on the other hand, provides an Adj. R2 score. The Heatmap shows the predicted values for different models, which we can compare to the true test data response
+variable (y_test).
+
+However, the Heatmap ranges from 0 to 5, which means that none of the true response values in y_test can be below 1 since y_test ranges from 1 to 5. This constraint does not apply to the regression models, which can predict values ranging from 0 to 5 and can also produce float values. However, this does not apply to LDA, as it only predicts the class.
