@@ -24,3 +24,4 @@ This dataset serves as a valuable resource for understanding the factors influen
 - **Policy Decisions**: Policymakers can use the findings from this dataset to implement evidence-based policies and interventions to improve mask-wearing behavior within the university community.
 - **Research**: Researchers can leverage this dataset to explore the relationship between various psychosocial factors and mask-wearing behavior, contributing to the broader understanding of health behavior during pandemics.
 
+**Data**
